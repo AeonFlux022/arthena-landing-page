@@ -11,19 +11,20 @@
     font-weight: 600;
     font-display: swap;
     src: url("https://api.fontshare.com/v2/css?f[]=poppins@400,600&display=swap");
-    padding: 0;
-    margin: 0;
   }
   a {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 300;
   }
-  p {
+  p, span {
     font-family: "Bespoke Slab";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: url("https://api.fontshare.com/v2/css?f[]=bespoke-slab@400&display=swap");
+  }
+  section {
+    padding: 0 3.5rem;
   }
 }
