@@ -10,7 +10,7 @@ const Navbar = () => {
   ]
   return (
     <section>
-      <nav className="bg-neutral text-dark shadow py-4 flex flex-wrap items-center justify-between">
+      <nav className="bg-neutral text-dark py-4 flex flex-wrap items-center justify-between">
         <div className="flex">
           <Link href="/">
             <img className="flex max-w-16" src="/primary-logo.png" />

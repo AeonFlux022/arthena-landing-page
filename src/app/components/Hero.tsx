@@ -8,7 +8,7 @@ const Hero = () => {
           <p className="text-2xl text-balance mt-2">Join our community of emerging artist and share your art to ignite inspiration.</p>
           <button className="bg-secondary text-black font-bold w-44 p-4 mt-8">Explore Artworks</button>
         </div>
-        <div className="flex w-6/12 bg-slate-600">
+        <div className="flex w-6/12">
           <img src="/patterns.svg" className="object-cover" />
         </div>
       </section>
