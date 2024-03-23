@@ -9,7 +9,7 @@ const Hero = () => {
           <button className="bg-secondary text-black font-bold mt-8 p-3 lg:w-44 hover:bg-secondary-light">Explore Artworks</button>
         </div>
         <div className="flex lg:w-6/12">
-          <img src="/patterns.svg" className="object-cover" />
+          <img src="/patterns.svg" className="object-cover" alt="hero image" />
         </div>
       </section>
     </header>
