@@ -39,7 +39,7 @@ const Content: React.FC = () => {
 
   return (
     <section className="container mx-auto h-auto my-20">
-      <div className="container mx-auto w-1/2 text-center mb-12">
+      <div className="container mx-auto w-3/4 lg:w-1/2 text-center mb-12">
         <h1 className="text-4xl mb-4">Our Featured Artworks</h1>
         <span className="text-xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quippe: habes
@@ -47,9 +47,9 @@ const Content: React.FC = () => {
           responsum.
         </span>
       </div>
-      <div className="flex flex-col-1 mx-auto md:flex-cols-2 gap-4">
+      <div className="grid grid-cols-1 mx-auto px-3 gap-2 lg:grid-cols-4 lg:px-0">
         {artworkData.map((artwork) => (
-          <Card key={artwork.title} {...artwork} />
+            <Card key={artwork.title} {...artwork} />
         ))}
       </div>
     </section>

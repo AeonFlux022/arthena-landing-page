@@ -1,6 +1,6 @@
 const Testimonial: React.FC = () => {
   return (
-    <section className="mx-auto text-center bg-slate-200 my-20 ">
+    <section className="mx-auto text-center bg-gray-200 my-20 ">
       <div className="flex flex-col justify-center items-center py-32">
         <p className="text-2xl mb-8">
           "Pollicetur certe. Sint modo partes vitae beatae. Duo Reges:
