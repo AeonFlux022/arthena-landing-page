@@ -5,6 +5,7 @@ const BlogCard: React.FC = () => {
         <img
           src="https://placehold.co/500x400/d2d2d2/222"
           className="hidden lg:block lg:h-full"
+          alt="sample-image"
         />
         <div className="flex flex-col text-center text-neutral lg:text-left lg:justify-center">
           <span className="mb-4">John Doe</span>
