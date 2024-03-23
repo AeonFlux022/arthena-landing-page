@@ -6,7 +6,7 @@ interface CardContent {
 
 const Card: React.FC<CardContent> = ({ title, imageUrl, description }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg mb-4">
+    <div className="mx-auto rounded overflow-hidden shadow-lg mb-4">
       <img className="w-full" src={imageUrl} alt={title} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
