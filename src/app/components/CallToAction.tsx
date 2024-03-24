@@ -14,7 +14,6 @@ const CallToAction: React.FC = () => {
             Contact Us
           </button>
         </div>
-        <div></div>
       </div>
     </section>
   );
