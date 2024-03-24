@@ -10,7 +10,7 @@ const CallToAction: React.FC = () => {
           <button className="bg-primary text-neutral w-full lg:w-60 px-8 py-3 hover:bg-primary-dark">
             Create an Account
           </button>
-          <button className="border text-primary border-primary w-full lg:w-60 px-8 py-3 hover:bg-black hover:border-black hover:text-neutral">
+          <button className="border text-black border-black w-full lg:w-60 px-8 py-3 hover:bg-black hover:border-black hover:text-neutral">
             Contact Us
           </button>
         </div>
