@@ -1,6 +1,6 @@
 const CallToAction: React.FC = () => {
   return (
-    <section className="bg-gray-100 px-3 py-10 my-10">
+    <section className="bg-gray-100 px-3 py-10 mt-10">
       <div className="container mx-auto flex flex-col h-64 py-3 justify-around items-center lg:flex lg:flex-row lg:gap-4">
         <div className="flex flex-col text-center mb-6 space-y-3 lg:w-1/2 lg:text-left">
           <h1 className="text-4xl lg:text-5xl ">Ready to get started?</h1>
