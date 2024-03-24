@@ -13,7 +13,7 @@ const Card: React.FC<CardContent> = ({ title, imageUrl, description }) => {
         {description && (
           <p className="text-gray-700 text-base line-clamp-2 mb-3">{description}</p>
         )}
-        <button className="bg-secondary size-full p-3 text-gray-800 font-bold hover:bg-secondary-light">Read More</button>
+        <button className="bg-secondary size-full p-3 text-gray-800 font-bold hover:bg-secondary-dark">Read More</button>
       </div>
     </div>
   );

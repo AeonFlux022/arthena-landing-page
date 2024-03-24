@@ -19,14 +19,14 @@ const config: Config = {
       },
       colors: {
         primary: {
-          light: '#8a6baf',
-          DEFAULT: '#7D5BA6',
-          dark: '##3f2e53',
+          light: '#7272a1',
+          DEFAULT: '#666699', // web safe color
+          dark: '#47476b',
         },
         secondary: {
-          light: '#ebce54',
-          DEFAULT: '#E6C229',
-          dark: '#b89b21',
+          light: '#ffd65a',
+          DEFAULT: '#ffcc33', // web safe color
+          dark: '#ffc20c', 
         },
         neutral: '#FCFAFA',
         black: '#313638',

@@ -1,4 +1,5 @@
 import BlogCard from "./components/BlogCard";
+import CallToAction from "./components/CallToAction";
 import Content from "./components/Content";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       <Content />
       <Testimonial />
       <BlogCard />
+      <CallToAction />
     </>
   );
 }
